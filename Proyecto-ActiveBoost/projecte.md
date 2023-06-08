@@ -43,6 +43,7 @@ Para este primer día /4/6/23 comencé a pensar en cómo tenía que hacer el pro
 
 Para comenzar el trabajo primero pensé en crear una plantilla en trello para administrar mi trabajo:
 
+![Trello](fotos/trello.png)
 
 Creé esos trabajos de momento para iniciar mi proyecto.
 
