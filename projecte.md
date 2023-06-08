@@ -37,7 +37,7 @@ Esta es la lista de las opciones recomendadas, al final opte por ActiveBoost, ya
 
 Nuestra Empresa aparte de dedicarse a la venta de suplementos deportivos, también se dedicará a la venta de material de GYM así tendremos más variedad en la tienda.
 
-2. Administración de Trabajos
+## 2. Administración de Trabajos
 
 Para este primer día /4/6/23 comencé a pensar en cómo tenía que hacer el proyecto de recuperación, no recibí ninguna instrucción ni respuesta a los mensajes hechos a los maestros, debido a que tengo poco tiempo preferí ya a comenzarlo, pensé que sería como el último proyecto y me puse a ello.
 
@@ -46,7 +46,7 @@ Para comenzar el trabajo primero pensé en crear una plantilla en trello para ad
 
 Creé esos trabajos de momento para iniciar mi proyecto.
 
-3. Localización
+## 3. Localización
 
 En primer lugar, decidí que mi local estuviera lo más cerca posible a un GYM, ya que mi local tendrá más demanda, porque no en todos los GYM venden suplementos y productos en el mismo recinto.
 
@@ -57,7 +57,7 @@ Santa Eulalia, L'Hospitalet de Llobregat, con uno200m2 a 60.000 €
 
 
 
-4. Topología de la red y Planos
+## 4. Topología de la red y Planos
 
 En primer lugar, comenzaré haciendo un esquema de la red de nuestra empresa con packet tracer y proseguí haciendo nuestros planos.
 
@@ -85,7 +85,7 @@ Planos de nuestro Local hechos con RoomSketcher:
 
 
 
-5. Instalar Proxmox en una MV
+## 5. Instalar Proxmox en una MV
 
 Primero pillamos una iso de la página oficial´de proxmox https://enterprise.proxmox.com/iso/ 
 Proseguimos por arrancar la iso en Virtualbox y seguimos con las configuraciones.
