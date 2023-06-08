@@ -1,6 +1,6 @@
 # Proyecto M12
 
-# 1. Valorar proyecto:
+## 1. Valorar proyecto:
 
 Lo primero sería pensar qué proyecto sería el indicado para aprobar la asignatura y sea compatible, así que pensé en los trabajos de la mayoría de mis compañeros y decidí montar un negocio de venta de productos, como tos.
 
