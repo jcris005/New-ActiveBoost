@@ -53,37 +53,38 @@ En primer lugar, decidí que mi local estuviera lo más cerca posible a un GYM, 
 
 Dicho lo anterior comencé a buscar un local cerca de un gym y también que esté lo bastante cerca del metro y un centro comercial grande.
 
-Santa Eulalia, L'Hospitalet de Llobregat, con uno200m2 a 60.000 €
+Santa Eulalia, L'Hospitalet de Llobregat, con unos 200 y dos plantas m2 a 60.000 €
 
+![localización](fotos/localizaci%C3%B3n1.png)
 
+![localización](fotos/localizacion2.png)
 
 
 ## 4. Topología de la red y Planos
 
-En primer lugar, comenzaré haciendo un esquema de la red de nuestra empresa con packet tracer y proseguí haciendo nuestros planos.
+Comenzaré haciendo un esquema de la red de nuestra empresa con packet tracer y proseguí haciendo nuestros planos.
 
-Principalmente tendremos tres redes:
+- Principalmente tendremos tres redes:
 
-Para los clientes, por si quieren conectarse a nuestro WIFI montamos un AccesPoint: 192.168.6.0/24
-Para nuestro Servicio tecnico, “equipos y servidores entre otros”: 192.168.5.0/24
-Para nuestros administradores y que encargan del papeleo y esas cosas: 192.168.4.0/24
+    - Para los clientes, por si quieren conectarse a nuestro WIFI montamos un AccesPoint: 192.168.6.0/24
+    - Para nuestro Servicio tecnico, “equipos y servidores entre otros”: 192.168.5.0/24
+    - Para nuestros administradores y que encargan del papeleo y esas cosas: 192.168.4.0/24
 
+![packettracer](fotos/packettracer.png)
 
+- Configuraciones hechas para el AccesPoint
 
+![packettracer](fotos/packettracer1.png)
 
+![packettracer](fotos/packettracer2.png)
 
+![packettracer](fotos/packettracer3.png)
 
+![packettracer](fotos/packettracer4.png)
 
+![packettracer](fotos/packettracer6.png)
 
-
-
-
-Planos de nuestro Local hechos con RoomSketcher:
-
-
-
-
-
+- Planos de nuestro Local hechos con RoomSketcher:
 
 
 ## 5. Instalar Proxmox en una MV
@@ -91,7 +92,11 @@ Planos de nuestro Local hechos con RoomSketcher:
 Primero pillamos una iso de la página oficial´de proxmox https://enterprise.proxmox.com/iso/ 
 Proseguimos por arrancar la iso en Virtualbox y seguimos con las configuraciones.
 
+![proxmox](fotos/proxmox.png)
+
 Nos instalamos un CT, en mi caso Ubuntu
+
+![proxmox](fotos/proxmox1.png)
 
 
 
