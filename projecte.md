@@ -16,4 +16,82 @@ Opté por la segunda opción debido a que me pareció la más asequible al tiemp
 
 La tercera opción me pareció la más entretenida, pero visto como nos fue con la peluquería, mejor opté por la segunda.
 
+### 1.1 Valorar nombre de la empresa:
+
+- Primero hagamos un listado de posibles nombre originales:
+
+    - FitSupp
+    - SupremeFit
+    - MusclePro
+    - VitaSport
+    - ElevateNutrition
+    - ActiveBoost
+    - OptiHealth
+    - IronEdge
+    - ProVitality
+    - PeakFuel
+    - EliteSupps
+    - PrimeNutrition
+
+Esta es la lista de las opciones recomendadas, al final opte por ActiveBoost, ya que el nombre es pegadizo y además pensé que nuestros productos estrella serán los prework que te activa.
+
+Nuestra Empresa aparte de dedicarse a la venta de suplementos deportivos, también se dedicará a la venta de material de GYM así tendremos más variedad en la tienda.
+
+2. Administración de Trabajos
+
+Para este primer día /4/6/23 comencé a pensar en cómo tenía que hacer el proyecto de recuperación, no recibí ninguna instrucción ni respuesta a los mensajes hechos a los maestros, debido a que tengo poco tiempo preferí ya a comenzarlo, pensé que sería como el último proyecto y me puse a ello.
+
+Para comenzar el trabajo primero pensé en crear una plantilla en trello para administrar mi trabajo:
+
+
+Creé esos trabajos de momento para iniciar mi proyecto.
+
+3. Localización
+
+En primer lugar, decidí que mi local estuviera lo más cerca posible a un GYM, ya que mi local tendrá más demanda, porque no en todos los GYM venden suplementos y productos en el mismo recinto.
+
+Dicho lo anterior comencé a buscar un local cerca de un gym y también que esté lo bastante cerca del metro y un centro comercial grande.
+
+Santa Eulalia, L'Hospitalet de Llobregat, con uno200m2 a 60.000 €
+
+
+
+
+4. Topología de la red y Planos
+
+En primer lugar, comenzaré haciendo un esquema de la red de nuestra empresa con packet tracer y proseguí haciendo nuestros planos.
+
+Principalmente tendremos tres redes:
+
+Para los clientes, por si quieren conectarse a nuestro WIFI montamos un AccesPoint: 192.168.6.0/24
+Para nuestro Servicio tecnico, “equipos y servidores entre otros”: 192.168.5.0/24
+Para nuestros administradores y que encargan del papeleo y esas cosas: 192.168.4.0/24
+
+
+
+
+
+
+
+
+
+
+
+Planos de nuestro Local hechos con RoomSketcher:
+
+
+
+
+
+
+
+5. Instalar Proxmox en una MV
+
+Primero pillamos una iso de la página oficial´de proxmox https://enterprise.proxmox.com/iso/ 
+Proseguimos por arrancar la iso en Virtualbox y seguimos con las configuraciones.
+
+Nos instalamos un CT, en mi caso Ubuntu
+
+
+
 
