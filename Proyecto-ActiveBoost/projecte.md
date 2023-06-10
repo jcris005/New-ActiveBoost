@@ -86,27 +86,27 @@ Comenzaré haciendo un esquema de la red de nuestra empresa con packet tracer y 
 
 - Planos de nuestro Local hechos con FloorPlaner:
 
-    - Primero comenzamos creando el local "ActiveBoost":
+Primero comenzamos creando el local "ActiveBoost":
 
 ![floorplaner](fotos/floorplaner.png)
 
-    Lo equipamos con muebles y le añadimos una receoción.
+Lo equipamos con muebles y le añadimos una receoción.
 
-    Para finalizar con los planos proseguimos cerando la oficina que dirige el local:
+Para finalizar con los planos proseguimos cerando la oficina que dirige el local:
 
 ![floorplaner](fotos/floorplaner1.png)
 
 Me inspire en la empresa donde hago las practicas, y posiblemente también copie algunos de sus servicios entre otros.
 
-    El cableado irá por las paredes, el router se encontrará en la sala de servidores/rack, esta repartira las IP a la sala Tecnica y oficina Tecnica con diferentes IP repartida por switches y tambié a la sala de vigilancia, reuniones, recepción y a los AccesPoint para el local ActiveBoost.
+El cableado irá por las paredes, el router se encontrará en la sala de servidores/rack, esta repartira las IP a la sala Tecnica y oficina Tecnica con diferentes IP repartida por switches y tambié a la sala de vigilancia, reuniones, recepción y a los AccesPoint para el local ActiveBoost.
 
-Resumen:
+- Resumen:
 
-Servico tecnico, rack de servidores, sala vigilancia -> 192.168.5.0/24
+    - Servico tecnico, rack de servidores, sala vigilancia -> 192.168.5.0/24
 
-Oficina Tecnica, recepción -> 192.168.4.0/24
+    - Oficina Tecnica, recepción -> 192.168.4.0/24
 
-Para los AccesPoint, uno alado de recepción y el otro a la entrada al local --> 192.168.6.0/24 
+    - Para los AccesPoint, uno alado de recepción y el otro a la entrada al local --> 192.168.6.0/24 
 
 
 
