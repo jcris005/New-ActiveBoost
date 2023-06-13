@@ -323,7 +323,43 @@ Servidor Nexcloud: 192.168.1.57:  TCP 8080
 
 Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria el paso a los servidores anteriormente mencionados y y obiamnete a http 80 y https 443, para poder navegar por internet y ssh 22, para poder conectarnos por ssh y poder acceder siempre a los servidores.
 
-## 9. marketing
+## 9 Lista de materiales de venta
+
+- Proteínas en polvo:
+
+    - Proteína de suero de leche (whey protein)
+    - Proteína de caseína
+    - Proteína vegetal (soja, guisante, arroz, cáñamo)
+
+- Pre-entrenamientos:
+
+Mezclas de pre-entrenamiento con ingredientes como cafeína, beta-alanina, creatina y aminoácidos para aumentar la energía y el rendimiento durante el entrenamiento.
+BCAA (Aminoácidos de Cadena Ramificada):
+
+Suplementos de aminoácidos esenciales que incluyen leucina, isoleucina y valina, que pueden ayudar a la recuperación muscular y el crecimiento.
+Glutamina:
+
+Un aminoácido que puede ayudar en la recuperación muscular y la salud del sistema inmunológico.
+Creatina:
+
+Suplemento popular que puede aumentar la fuerza y la resistencia muscular.
+Quemadores de grasa:
+
+Suplementos que contienen ingredientes como cafeína, extracto de té verde y otros estimulantes para ayudar en la pérdida de peso y el metabolismo de las grasas.
+Vitaminas y minerales:
+
+Suplementos multivitamínicos y minerales diseñados específicamente para deportistas, que pueden ayudar a cubrir las necesidades nutricionales adicionales.
+Omega-3:
+
+Ácidos grasos esenciales que promueven la salud cardiovascular y la función cerebral.
+Recuperadores post-entrenamiento:
+
+Mezclas de nutrientes que contienen proteínas, carbohidratos y aminoácidos para ayudar en la recuperación muscular después del ejercicio.
+Barras y snacks proteicos:
+
+Barras de proteínas, batidos y otros snacks convenientes para consumir proteínas de manera rápida y fácil.
+
+## 10. marketing
 
 
 
