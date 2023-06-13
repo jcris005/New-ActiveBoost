@@ -224,6 +224,16 @@ Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpe
 
 ### 6.3. DNS
 
+Yo decidi implementar un servidor DNS para la futura web que se llamara actu¡iveboost.com y necesitamos un servidor DNS para combertir la ip a nombre de dominio.
+
+Configure nuestro servidor DNS con bind9: sudo apt-get install bind9 para descargar el paquete, proseguimos editando el sihuiente archivo.
+
+![dns](fotos/dns.png)
+
+![dns](fotos/dns1.png)
+
+![dns](fotos/dns2.png)
+
 
 
 ### 6.4 DHCP
@@ -233,6 +243,7 @@ Nosotros instalamos isc-dhcp-server, comenzamos descargando el paquete con apt-g
 ![DHCP](fotos/DHCP.png)
 
 Esta imagesn también es el mismo archivo de antes, sinó con la diferencia de que este se encrga de configurar el rango de direcciones IP que el servidor DHCP asignará a los clientes
+
 ![DHCP](fotos/DHCP1.png)
 
 ![DHCP](fotos/DHCP2.png)
