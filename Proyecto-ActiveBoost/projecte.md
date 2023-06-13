@@ -184,18 +184,5 @@ Otra cosa conveniente al usar mattermost es que tiene "boards" en cada chanel, p
 
 Estos solo son algunas cosas de las cuales haremos uso, pero mattermost ofece mucho más.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Instalación y configuración Nexcloud, para servicio técnico y oficina técnica
 
