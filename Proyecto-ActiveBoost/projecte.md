@@ -186,3 +186,50 @@ Estos solo son algunas cosas de las cuales haremos uso, pero mattermost ofece mu
 
 ### 6.2 Instalación y configuración Nexcloud, para servicio técnico y oficina técnica
 
+En este apartado lo que haremos será crear otro container y subirlo con docker compose, como hicimos con matermost.
+
+![nexcloud](fotos/nexcloud1.png)
+
+La siguiente imagen mustra el contenido de docker-compose.yml 
+
+![nexcloud](fotos/nexcloud2.png)
+
+Lo que hace es usar la imagen de mariadb como base de datos y nexclaud que indica el puerto y el archivo donde se alojara.
+
+Una vez que veamos que no hay ningun error solo tenemos que poner nuestra ip del server y el puerto 8080, este es el que usamos para nexcloud.
+
+En las siguientes imágenes podemos ver que primero nos logueamos con la cuenta del server y la contraceña creada en mariadb y después ya podemos acceder al nexcloud.
+
+![nexcloud](fotos/nexcloud3.png)
+
+![nexcloud](fotos/nexcloud4.png)
+
+Una vez terminado esto lo que haremos será crear grupos, oficina tecnica, servicio técnico, sala de vídeo vigilancia entre otros. Tambien creamos carpetas para estos. Y por ultimo añadimos usuarios yo añadi al usuario "jhoselin" y le asigne al grupo servicio técnico, y le comparti es acceso a la carpeta servicio técnico al grupo de servicio técnico, es decir al grupo en el que se encuentra el usuario "jhoselin". Accedí desde otro orenador, me loguee con la cuenta, y me salía la la carpeta de servicio técnico y las subcarpetas creadas.
+
+![nexcloud](fotos/nexcloud5.png)
+
+Aqui las imagenes del otro ordenador:
+
+![nexcloud](fotos/nexcloud6.png)
+
+![nexcloud](fotos/nexcloud7.png)
+
+![nexcloud](fotos/nexcloud8.png)
+
+![nexcloud](fotos/nexcloud9.png)
+
+![nexcloud](fotos/nexcloud10.png)
+
+Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpeta "Documents" que es sonde puse todos los demás.
+
+
+
+
+
+
+
+
+
+
+
+
