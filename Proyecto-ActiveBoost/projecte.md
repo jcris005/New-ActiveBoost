@@ -142,6 +142,12 @@ Psiblemente no acabe de instalar todos estos servicios ya que no dispongo del ti
 
 Cabe destacar que aqui no haré la cnfiguración de DNS y DHCP porque ya las hice en el anterior proyecto, y daremos por hecho que ya están instalados. También, los servicios desconocidos mencionados antes me recomendo Alfons("Tutor de précticas") que se encraga de todo el canodrom, le pregunte estas cosas para que mi empresa tenga más sentido, que creo que era eso lo que fallaba en el anterior proyecto.
 
+## 7. Instalación y configuración de servidor Mattermost:
+
+- Comenzamos con buscar si se puede instalar con docker-compose para facilitarnos el trabajo, si se puede, el script para el containet de docker-compose.yml me lo proporciono chat-gpt, lo que se usa seria mb y matermost:
+
+
+
 
 
 
