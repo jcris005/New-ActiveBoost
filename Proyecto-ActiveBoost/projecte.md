@@ -221,8 +221,20 @@ Aqui las imagenes del otro ordenador:
 ![nexcloud](fotos/nexcloud10.png)
 
 Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpeta "Documents" que es sonde puse todos los demás.
+## 7. Configuración e instalación servidor DNS y DHCP
+
+### 7.1. DNS
+
+Nosotros instalamos DNS con Bind9, comenzamos descargando el paquete con apt-get install:
 
 
+
+
+
+
+## 8. Configuración Pfsense y Firewall 
+
+## 9. Página web subida con apache 2 
 
 
 
