@@ -221,11 +221,20 @@ Aqui las imagenes del otro ordenador:
 ![nexcloud](fotos/nexcloud10.png)
 
 Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpeta "Documents" que es sonde puse todos los demás.
-## 7. Configuración e instalación servidor DNS y DHCP
 
-### 7.1. DNS
+### 6.3. DNS
 
-Nosotros instalamos DNS con Bind9, comenzamos descargando el paquete con apt-get install:
+### 6.4 DHCP
+
+Nosotros instalamos isc-dhcp-server, comenzamos descargando el paquete con apt-get install y procedimos con la edición del archivo /etc/dhcp/dhcpd.conf que nos sirvio para establecer el nombre de dominio.
+
+![DHCP](fotos/DHCP.png)
+
+Esta imagesn también es el mismo archivo de antes, sinó con la diferencia de que este se encrga de configurar el rango de direcciones IP que el servidor DHCP asignará a los clientes
+![DHCP](fotos/DHCP1.png)
+
+![DHCP](fotos/DHCP2.png)
+
 
 
 
