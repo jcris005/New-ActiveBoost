@@ -134,7 +134,7 @@ En el anterior proyecto yo me encargue de todas las que se tenian que hacer, yo 
     - Seguridad fisica y lógica, para la segurida física creare las medidas de seguridad e instalare un servidor en el cual pueda acceder a las camaras de seguridad 
     ZoneMinder que es la que tenemos montada en el canodrom, tambie necesitariamos targetas de acceso, es decir "CardPass3" su función es limitar el paso a cualquier persona que no tenga esta targeta. Para la seguridad logica bastaria con un wirewall de red en nuestro router que será creado pon PfSense.
     - Servicio de copias de seguridad y almacenamiento, nosotros tenemos montado una "raid 5" y aparte tambien tenemos instalado el "proxmox backup" que remplace esta opción enves del TrueNas. Cabe destacra que también tenemos las backups en la nube.
-    - Servicios de logisticca, Manhattan Associates nos facilitará muchisimo la administración del almacenamiento, tambien estube pensando en instalar un nexcloud para el 
+    - Servicios de logisticca, Manhattan Associates nos facilitará muchisimo la administración del almacén , tambien estube pensando en instalar un nexcloud para el 
     servivio tecnico y otro para la oficina tecnica.
     - Tambien haremos uso de apache2 para la web.
 
