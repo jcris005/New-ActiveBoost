@@ -122,6 +122,27 @@ Nos instalamos un CT, en mi caso Ubuntu
 
 ![proxmox](fotos/proxmox1.png)
 
+## 6. Instalación de servicios "solo necesarios para ActiveBoost" 
+
+En el anterior proyecto yo me encargue de todas las que se tenian que hacer, yo me encrague de hacer desde la primera a la ultima, exepto algunas que no salkieron, pero ahora decidi que solo pondria las necesarias y algunas que que no estaban en la instalación del anterior proyecto.
+
+- Me vase en 6 puntos:
+
+    - Mensageria, que lo haré con postfix
+    - Mensageria instantanea que lo haré con matermost
+    - Software de gestión empresarial, SAP Business One, esta erramienta es muy util ya que es una solución única y asequible para gestionar toda pequeña empresa desde contabilidad y finanzas, compras, inventario, ventas y relaciones con los clientes hasta informes y análisis
+    - Seguridad fisica y lógica, para la segurida física creare las medidas de seguridad e instalare un servidor en el cual pueda acceder a las camaras de seguridad 
+    ZoneMinder que es la que tenemos montada en el canodrom, tambie necesitariamos targetas de acceso, es decir "CardPass3" su función es limitar el paso a cualquier persona que no tenga esta targeta. Para la seguridad logica bastaria con un wirewall de red en nuestro router que será creado pon PfSense.
+    - Servicio de copias de seguridad y almacenamiento, nosotros tenemos montado una "raid 5" y aparte tambien tenemos instalado el "proxmox backup" que remplace esta opción enves del TrueNas. Cabe destacra que también tenemos las backups en la nube.
+    - Servicios de logisticca, Manhattan Associates nos facilitará muchisimo la administración del almacenamiento, tambien estube pensando en instalar un nexcloud para el 
+    servivio tecnico y otro para la oficina tecnica.
+    - Tambien haremos uso de apache2 para la web.
+
+Psiblemente no acabe de instalar todos estos servicios ya que no dispongo del tiempo y conocimiento y material necesario, pero llegare hasta donde se pueda, le dare más inportancia a los mas necesarios para el funcionamiento de la empresa ActiveBoost.
+
+Cabe destacar que aqui no haré la cnfiguración de DNS y DHCP porque ya las hice en el anterior proyecto, y daremos por hecho que ya están instalados. También, los servicios desconocidos mencionados antes me recomendo Alfons("Tutor de précticas") que se encraga de todo el canodrom, le pregunte estas cosas para que mi empresa tenga más sentido, que creo que era eso lo que fallaba en el anterior proyecto.
+
+
 
 
 
