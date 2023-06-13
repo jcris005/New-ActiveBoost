@@ -146,6 +146,53 @@ Cabe destacar que aqui no haré la cnfiguración de DNS y DHCP porque ya las hic
 
 - Comenzamos con buscar si se puede instalar con docker-compose para facilitarnos el trabajo, si se puede, el script para el containet de docker-compose.yml me lo proporciono chat-gpt, lo que se usa seria mb y matermost:
 
+![mattermost](fotos/mattermost.png)
+
+En la imagen se puede apresiar como ejecutamos el container docker-compose.yml que tiene el siguiente contenido:
+
+![mattermost](fotos/mattermost1.png)
+
+También qui podemos observar que no nos dio ninngun error y podemos ver los contenedores que fueron ejecutados:
+
+![mattermost](fotos/mattermost3.png)
+
+![mattermost](fotos/mattermos4.png)
+
+- Ahora pasemos al servidor:
+
+Ahora abrimos un navegador y ponemos la ip del server-ubuntu donde tenemos montado el matermost con el puerto :8065 y al entrar lo primero que nos pude es crear una cuenta administrador y despues una "Team" nueva, en nuestro caso ActiveBoost
+
+![mattermost](fotos/mattermost5.png)
+
+![mattermost](fotos/mattermost_admin.png)
+
+Y aquí podemos ver que ya se creo:
+
+![mattermost](fotos/mattermost_creado_ya_la_chanel_de_activeboost.png)
+
+En la siguiente imagen se muestra algunos chanels que son los mas importantes, oficina tecnica: solo pa los que se encargan del papeleo y administración entre otros, servicio técnico: para el chat del los encragados del correcto funcionamiento de los servidores, impresoras, web... entre otros, town square: que es una chanel para que todos dentro del servidor lo vean, y por ultimo off-topic: que una chanel que no está relacionada con el trabajo.
+
+cabe destacar que este es la beta, después con el tiempo lo mejoraremos todo.
+
+![mattermost](fotos/mattermost6.png)
+
+Otra cosa conveniente al usar mattermost es que tiene "boards" en cada chanel, para asignar tareas con una fecha, importancia entre otros, y admeás también puedes hacer llamadas, la mensageria instantanea ideal para una empresa.
+
+![mattermost](fotos/mattermost7.png)
+
+![mattermost](fotos/mattermost8boards.png)
+
+Estos solo son algunas cosas de las cuales haremos uso, pero mattermost ofece mucho más.
+
+
+
+
+
+
+
+
+
+
 
 
 
