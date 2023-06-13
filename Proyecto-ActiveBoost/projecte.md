@@ -224,6 +224,8 @@ Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpe
 
 ### 6.3. DNS
 
+
+
 ### 6.4 DHCP
 
 Nosotros instalamos isc-dhcp-server, comenzamos descargando el paquete con apt-get install y procedimos con la edición del archivo /etc/dhcp/dhcpd.conf que nos sirvio para establecer el nombre de dominio.
@@ -235,13 +237,10 @@ Esta imagesn también es el mismo archivo de antes, sinó con la diferencia de q
 
 ![DHCP](fotos/DHCP2.png)
 
-
-
-
-
-
+Esto es un poco de lo que hice en el anterior proyecto y lo expliqué mejor ahí.
 
 ## 8. Configuración Pfsense y Firewall 
+
 
 ## 9. Página web subida con apache 2 
 
