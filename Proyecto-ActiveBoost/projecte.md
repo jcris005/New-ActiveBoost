@@ -261,8 +261,52 @@ Esto es un poco de lo que hice en el anterior proyecto y lo expliqué mejor ahí
 No hay tiempo, pero tampoco es tán necesario ya que tenemos nexcloud, pero con esta herrramienta boosteariamos nuestra empresa.
 Ya explique un poco de para que lo queria en el punto 6.
 
-![businessOne](fotos/DHCP2.png)
+![businessOne](fotos/BusinessOne.png)
 
+### 6.6 Seguridad
+
+- ZoneMinder 
+
+Este servidor practicante un servidor para monitorear camaras, seria más que todo para nuestra sala de videovigiláncia.
+
+- CardPass3
+
+Este servidor nos serviria para gestionar el acceso al recinto, en nuestro caso al local de ActiveBoost y a las oficinas, aparte de crear targetas de acceso para siertas salas, también gestiona a los departamentos a los que pertenecen los trabajadores. Esto tambien formaria parte de la sala de seguridad.
+
+![targeta](fotos/tarjetaDeAcceso.jpg)
+
+- Medidas de seguridad para el local y oficinas:
+
+    - Sistema de vigilancia por video
+    - Control de acceso
+    - Alarma de seguridad
+    - Seguridad física de los productos, (vitrinas, para proteger los productos)
+    - Control de inventario
+    - Políticas de seguridad de datos
+    - Extintores de incendios
+    - Detectores de incendios
+    - Señalización de salidas de emergencia
+    - Salida de emergencia
+    - Capacitación en primeros auxilios
+
+### 6.7 Proxmox Backup Server
+
+Esta herramienta como su nombre lo dice, es un servidor proxmox que hace backups a un servidor proxmox, es muy fácil de configurar y puedes decidir cuando hara la backup, que CT o PVS hacer la backup, es una altrnativa al TrueNas, que me abria gustado hacer.
+
+![Proxmox](fotos/proxmox_backup_server.png)
+
+Mi idea era de tener montado una "RAID 5" en nuestro servidor proxmox, y que aparte se hagan las backups en proxmox server que estaria en otra máquina.
+
+![Proxmox](fotos/rack-servidor.png)
+
+![Proxmox](fotos/rack-servidor1.png)
+
+Claro, aparte también tendríamos las backups en la nube , estuve pensando en "MANHATTAN ACTIVE" que es la que usan el corte ingles, Nissan, Kiani entre, otras grandes empresas.
+Aparte tmbién nos serviria para gestionar mejor nuestro almacén entre otros...
+
+### 6.8 Pagina Web
+
+Par este partado, quería reutilizar la página web del anterior proyecto y modificarlo un poco, pero no dio tiempo, así que pense en porlomenos hacer el diceño de la página.
 
 ## 8. Configuración Pfsense y Firewall 
 
@@ -279,9 +323,11 @@ Servidor Nexcloud: 192.168.1.57:  TCP 8080
 
 Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria el paso a los servidores anteriormente mencionados y y obiamnete a http 80 y https 443, para poder navegar por internet y ssh 22, para poder conectarnos por ssh y poder acceder siempre a los servidores.
 
+## 9. marketing
 
 
-## 9. Página web subida con apache 2 
+
+
 
 
 
