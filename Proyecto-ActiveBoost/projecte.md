@@ -128,9 +128,8 @@ En el anterior proyecto yo me encargue de todas las que se tenian que hacer, yo 
 
 - Me vase en 6 puntos:
 
-    - Mensageria, que lo haré con postfix
     - Mensageria instantanea que lo haré con matermost
-    - Software de gestión empresarial, SAP Business One, esta erramienta es muy util ya que es una solución única y asequible para gestionar toda pequeña empresa desde contabilidad y finanzas, compras, inventario, ventas y relaciones con los clientes hasta informes y análisis
+    - Software de gestión empresarial, SAP Business One, esta herramienta es muy útil ya que es una solución unica y asequible para gestionar toda pequeña empresa desde contabilidad y finanzas, compras, inventario, ventas y relaciones con los clientes hasta informes y análisis.
     - Seguridad fisica y lógica, para la segurida física creare las medidas de seguridad e instalare un servidor en el cual pueda acceder a las camaras de seguridad 
     ZoneMinder que es la que tenemos montada en el canodrom, tambie necesitariamos targetas de acceso, es decir "CardPass3" su función es limitar el paso a cualquier persona que no tenga esta targeta. Para la seguridad logica bastaria con un wirewall de red en nuestro router que será creado pon PfSense.
     - Servicio de copias de seguridad y almacenamiento, nosotros tenemos montado una "raid 5" y aparte tambien tenemos instalado el "proxmox backup" que remplace esta opción enves del TrueNas. Cabe destacra que también tenemos las backups en la nube.
@@ -226,11 +225,18 @@ Al parecer no le comparti solo la carpeta de servicio técnico, sino de la carpe
 
 Yo decidi implementar un servidor DNS para la futura web que se llamara actu¡iveboost.com y necesitamos un servidor DNS para combertir la ip a nombre de dominio.
 
-Configure nuestro servidor DNS con bind9: sudo apt-get install bind9 para descargar el paquete, proseguimos editando el sihuiente archivo.
+Configure nuestro servidor DNS con bind9: sudo apt-get install bind9 para descargar el paquete, proseguimos editando el sihuiente archivo /etc/bind/named.conf.local
 
 ![dns](fotos/dns.png)
 
+Dentro del archivo agregamos las zonas de dominio a configurar "activeboost.com".
+
+Proseguimos por crear el archivo /etc/bind/db.activeboost.com
+
 ![dns](fotos/dns1.png)
+
+añadimos las siguientes lineas, estas configuraciones en el archivo de zona definen los registros de resolución de nombres para el dominio. Cada registro especifica una relación entre un nombre y una dirección IP, lo que permite que el servidor DNS resuelva las consultas de DNS y dirija el tráfico hacia el destino correcto.
+Por ultimo receteamos el servicio de bind 9 con: sudo service bind9 restart.
 
 ![dns](fotos/dns2.png)
 
@@ -250,7 +256,29 @@ Esta imagesn también es el mismo archivo de antes, sinó con la diferencia de q
 
 Esto es un poco de lo que hice en el anterior proyecto y lo expliqué mejor ahí.
 
+### 6.5 SAP Business One
+
+No hay tiempo, pero tampoco es tán necesario ya que tenemos nexcloud, pero con esta herrramienta boosteariamos nuestra empresa.
+Ya explique un poco de para que lo queria en el punto 6.
+
+![businessOne](fotos/DHCP2.png)
+
+
 ## 8. Configuración Pfsense y Firewall 
+
+No me dio tiempo a instalar un PfSense y mi PC está apunto de explotar, pero seria lo mismo que en el anterior proyecto, añadir tres redes, crear una red wan que de salida a internet y tres redes lan para las sistintas redes que tenemos.
+
+Por parte del Firewall de Red que lo queria configurar qui, seria Un firewall de red "denegativo", lo contrario a permisivo.
+
+- Lista de IP de servidores y puertos, protocolos:
+
+Servidor DNS: 192.168.1.53: UDP 53 y TCP 53
+Servidor DHCP:192.168.1.53: UDP 67
+Servidor Mattermost: 192.168.1.56: TCP 8065
+Servidor Nexcloud: 192.168.1.57:  TCP 8080
+
+Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria el paso a los servidores anteriormente mencionados y y obiamnete a http 80 y https 443, para poder navegar por internet y ssh 22, para poder conectarnos por ssh y poder acceder siempre a los servidores.
+
 
 
 ## 9. Página web subida con apache 2 
