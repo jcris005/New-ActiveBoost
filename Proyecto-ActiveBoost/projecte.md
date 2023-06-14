@@ -325,7 +325,7 @@ Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria 
 
 ![PfSense](fotos/pfsense.jpg)
 
-## 9 Lista de materiales de venta
+## 9 Lista de productos de venta y productos de oficina
 
 Suplementos deportivos 
 
@@ -391,8 +391,28 @@ Material de Oficina
 
 ## 10. marketing
 
+Primero,tenemos que pensar porque las personas que eligirían a nuestri local para dejar su dinero?
 
+Puntos a favor ActiveBoost:
 
+- Localización estratégica, ya que estámos cerca de un gym, en el cual no venden duplementos.
+- Gran variedad de productos,
+- Web en internet para la venta de productos.
+- Calidad/precio
+
+Puntos en contra?
+
+- Creo que no hay
+
+### 10.1. Analizar Competencia en el mercado
+
+Porque MyProtein vende mucho más que otras tiendas, que incluso ya se volvió mundial, es decir que tiene tiendas por todo el mundo?
+
+Haciendo una brebe busqueda, te das cuenta de que myprotein no vende sus productos a bajo precio, mantiene una media, no tiene tanta variedad de productos e incluso su página web no es llamativa. Entonces porque vende mucho más que otras empresas? 
+
+- Porque dan a conocer su tienda por redes sociales y pagan a influencers fitnes para promocionar su tienda, cosa que pocas tiendas hacen y se limitan a vender en un local y abrir una página web para vender más.
+
+Entonces para triunfar en el mercado de venta de suplementación tenemos que comenzar ahacer conocer nustra marca ActiveBoost-
 
 
 
