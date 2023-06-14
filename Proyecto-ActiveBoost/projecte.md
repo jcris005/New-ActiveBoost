@@ -316,14 +316,18 @@ Por parte del Firewall de Red que lo queria configurar qui, seria Un firewall de
 
 - Lista de IP de servidores y puertos, protocolos:
 
-Servidor DNS: 192.168.1.53: UDP 53 y TCP 53
-Servidor DHCP:192.168.1.53: UDP 67
-Servidor Mattermost: 192.168.1.56: TCP 8065
-Servidor Nexcloud: 192.168.1.57:  TCP 8080
+    - Servidor DNS: 192.168.1.53: UDP 53 y TCP 53
+    - Servidor DHCP:192.168.1.53: UDP 67
+    - Servidor Mattermost: 192.168.1.56: TCP 8065
+    - Servidor Nexcloud: 192.168.1.57:  TCP 8080
 
 Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria el paso a los servidores anteriormente mencionados y y obiamnete a http 80 y https 443, para poder navegar por internet y ssh 22, para poder conectarnos por ssh y poder acceder siempre a los servidores.
 
+![PfSense](fotos/pfsense.jpg)
+
 ## 9 Lista de materiales de venta
+
+Suplementos deportivos 
 
 - Proteínas en polvo:
 
@@ -331,35 +335,63 @@ Yo montaria un firewall de red restrictivo, es decir el más seguro, permitiria 
     - Proteína de caseína
     - Proteína vegetal (soja, guisante, arroz, cáñamo)
 
-- Pre-entrenamientos:
+- Pre-entrenamientos (Mezclas de pre-entrenamiento con ingredientes como cafeína, beta-alanina, creatina y aminoácidos para aumentar la energía y el rendimiento durante el entrenamiento)
+- BCAA (Aminoácidos de Cadena Ramificada)--> Suplementos de aminoácidos esenciales que incluyen leucina, isoleucina y valina, que pueden ayudar a la recuperación muscular y el crecimiento)
 
-Mezclas de pre-entrenamiento con ingredientes como cafeína, beta-alanina, creatina y aminoácidos para aumentar la energía y el rendimiento durante el entrenamiento.
-BCAA (Aminoácidos de Cadena Ramificada):
+- Glutamina (Un aminoácido que puede ayudar en la recuperación muscular y la salud del sistema inmunológico)
 
-Suplementos de aminoácidos esenciales que incluyen leucina, isoleucina y valina, que pueden ayudar a la recuperación muscular y el crecimiento.
-Glutamina:
+- Creatina (Suplemento popular que puede aumentar la fuerza y la resistencia muscular)
 
-Un aminoácido que puede ayudar en la recuperación muscular y la salud del sistema inmunológico.
-Creatina:
+- Quemadores de grasa (Suplementos que contienen ingredientes como cafeína, extracto de té verde y otros estimulantes para ayudar en la pérdida de peso y el metabolismo de las grasas.
+Vitaminas y minerales)
 
-Suplemento popular que puede aumentar la fuerza y la resistencia muscular.
-Quemadores de grasa:
+- Suplementos multivitamínicos y minerales diseñados específicamente para deportistas, que pueden ayudar a cubrir las necesidades nutricionales adicionales.
 
-Suplementos que contienen ingredientes como cafeína, extracto de té verde y otros estimulantes para ayudar en la pérdida de peso y el metabolismo de las grasas.
-Vitaminas y minerales:
+- Omega-3 (Ácidos grasos esenciales que promueven la salud cardiovascular y la función cerebral)
 
-Suplementos multivitamínicos y minerales diseñados específicamente para deportistas, que pueden ayudar a cubrir las necesidades nutricionales adicionales.
-Omega-3:
+- Recuperadores post-entrenamiento (Mezclas de nutrientes que contienen proteínas, carbohidratos y aminoácidos para ayudar en la recuperación muscular después del ejercicio)
 
-Ácidos grasos esenciales que promueven la salud cardiovascular y la función cerebral.
-Recuperadores post-entrenamiento:
+- Barras y snacks proteicos
 
-Mezclas de nutrientes que contienen proteínas, carbohidratos y aminoácidos para ayudar en la recuperación muscular después del ejercicio.
-Barras y snacks proteicos:
+Material Deportivo
 
-Barras de proteínas, batidos y otros snacks convenientes para consumir proteínas de manera rápida y fácil.
+- Straps o correas de levantamiento (Ayudan a mejorar el agarre durante ejercicios de levantamiento de peso, como levantamiento muerto o dominadas)
+
+- Cinturones de levantamiento de peso (Proporcionan soporte para la columna vertebral y los músculos abdominales durante levantamientos pesados, como sentadillas o peso muerto)
+
+- Rodilleras (Brindan soporte y estabilidad a las rodillas durante ejercicios que involucran movimientos de flexión y extensión de las rodillas, como sentadillas o levantamiento de peso)
+
+- Muñequeras (Proporcionan estabilidad y soporte a las muñecas durante ejercicios que involucran movimientos de empuje o levantamiento de peso, como press de banca o levantamiento militar)
+
+- Fajas de compresión (Ayudan a proporcionar compresión y soporte a los músculos durante el entrenamiento, reduciendo la fatiga muscular y promoviendo una mejor circulación sanguínea)
+
+- Bandas de resistencia (Proporcionan resistencia adicional para ejercicios de fuerza y ​​acondicionamiento, ayudando a fortalecer y tonificar los músculos)
+
+- Agarres para levantamiento de pesas (Mejoran el agarre durante ejercicios de levantamiento de peso, como levantamiento muerto o remo, ayudando a reducir la fatiga de los antebrazos)
+
+- Rulos de espuma o foam rollers (Se utilizan para el automasaje y la liberación miofascial, ayudando a aliviar la tensión muscular y mejorar la movilidad)
+
+- Balones medicinales (Son utilizados para ejercicios de resistencia y fortalecimiento, así como para mejorar el equilibrio y la coordinación)
+
+- Bandas elásticas de estiramiento (Se utilizan para mejorar la flexibilidad, realizar estiramientos y ejercicios de movilidad)
+
+Material de Oficina
+
+- 8 Portatilres
+- 2 Impresoras
+- 3 PC de sobremesa
+- 2 Rack de servidor pequeño
+- 1 Rack para el router
+- Cables Ethernet
+- 10 Monitores
+- 1 Proyector para la sala de reuniones
+- 12 Camaras
+- Lectores de targetas de acceso 
+- Teclados y ratones
 
 ## 10. marketing
+
+
 
 
 
